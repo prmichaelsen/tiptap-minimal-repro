@@ -7,9 +7,6 @@ const nextConfig = {
 
   reactStrictMode: true,
   swcMinify: true,
-  
-  // Custom build ID for cache busting
-  generateBuildId: () => process.env.VERCEL_GIT_COMMIT_SHA,
 
   // Add domain whitelist for images
   images: {
