@@ -1,0 +1,53 @@
+{
+  "name": "tiptap-minimal-repro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit --pretty --incremental false"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "@tiptap/core": "^3.0.0",
+    "@tiptap/extension-blockquote": "^3.0.0",
+    "@tiptap/extension-bold": "^3.0.0",
+    "@tiptap/extension-bullet-list": "^3.0.0",
+    "@tiptap/extension-code": "^3.0.0",
+    "@tiptap/extension-code-block": "^3.0.0",
+    "@tiptap/extension-document": "^3.0.0",
+    "@tiptap/extension-dropcursor": "^3.0.0",
+    "@tiptap/extension-hard-break": "^3.0.0",
+    "@tiptap/extension-heading": "^3.0.0",
+    "@tiptap/extension-history": "^3.0.0",
+    "@tiptap/extension-image": "^3.0.0",
+    "@tiptap/extension-italic": "^3.0.0",
+    "@tiptap/extension-link": "^3.0.0",
+    "@tiptap/extension-list-item": "^3.0.0",
+    "@tiptap/extension-ordered-list": "^3.0.0",
+    "@tiptap/extension-paragraph": "^3.0.0",
+    "@tiptap/extension-placeholder": "^3.0.0",
+    "@tiptap/extension-strike": "^3.0.0",
+    "@tiptap/extension-text": "^3.0.0",
+    "@tiptap/extension-text-align": "^3.0.0",
+    "@tiptap/extension-typography": "^3.0.0",
+    "@tiptap/extension-underline": "^3.0.0",
+    "@tiptap/pm": "^3.0.0",
+    "@tiptap/react": "^3.0.0",
+    "@tiptap/starter-kit": "^3.0.0",
+    "next": "^14.2.23",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.23",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^4.9.5"
+  }
+}
